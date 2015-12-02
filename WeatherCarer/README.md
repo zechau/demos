@@ -8,3 +8,4 @@ A weahter app created by react native
 - replace mock data with api
 - debug performance problems
 - add ios version
+- push message base on different weather condition

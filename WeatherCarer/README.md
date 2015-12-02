@@ -1,9 +1,10 @@
-# A weahter app created by react native
+#WeatherCarer
+A weahter app created by react native
 
-#issues
+##issues
 - requiring local img shows blank
 
-#todo
+##todo
 - replace mock data with api
 - debug performance problems
 - add ios version

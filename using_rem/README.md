@@ -1,2 +1,1 @@
-# demos
-some demos
+# a demo for using rem

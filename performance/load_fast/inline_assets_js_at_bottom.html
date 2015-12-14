@@ -1,19 +1,33 @@
-
-<!-- saved from url=(0128)https://googlesamples.github.io/web-fundamentals/samples/fundamentals/performance/critical-rendering-path/measure_crp_async.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Critical Path: Measure Async</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--首屏资源内嵌-->
+    <style>
+        .base{}
+    </style>
   </head>
-  <body onload="">
+  <body>
     <p>Hello <span style="display: inline;">interactive</span> students!</p>
-    <div><img src="https://googlesamples.github.io/web-fundamentals/samples/fundamentals/performance/critical-rendering-path/awesome-photo.jpg"></div>
+    <div><img src="assets/awesome-photo.jpg"></div>
+
+    <!--按需后续加载-->
     <script>
     setTimeout(function (argument) {
-    	var $link = document.createElement('link');
-    	$link.href = 'https://googlesamples.github.io/web-fundamentals/samples/fundamentals/performance/critical-rendering-path/style.css';
+    	var $link = document.createElement('link'),
+            $script = document.createElement('script'),
+            $head = document.getElementsByTagName('head')[0];
+    	
+        $link.href = 'assets/style.css';
     	$link.rel = "stylesheet";
-    	document.getElementsByTagName('head')[0].appendChild($link);
+
+        $script.src = "assets/timing.js";
+        $script.onload = function(){
+            typeof measureCRP === "function" && measureCRP();
+        }
+
+    	$head.appendChild($link);
     }, 0);
     </script>
+
 	</body>
 </html>

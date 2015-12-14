@@ -1,0 +1,19 @@
+
+<!-- saved from url=(0128)https://googlesamples.github.io/web-fundamentals/samples/fundamentals/performance/critical-rendering-path/measure_crp_async.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Critical Path: Measure Async</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body onload="">
+    <p>Hello <span style="display: inline;">interactive</span> students!</p>
+    <div><img src="https://googlesamples.github.io/web-fundamentals/samples/fundamentals/performance/critical-rendering-path/awesome-photo.jpg"></div>
+    <script>
+    setTimeout(function (argument) {
+    	var $link = document.createElement('link');
+    	$link.href = 'https://googlesamples.github.io/web-fundamentals/samples/fundamentals/performance/critical-rendering-path/style.css';
+    	$link.rel = "stylesheet";
+    	document.getElementsByTagName('head')[0].appendChild($link);
+    }, 0);
+    </script>
+	</body>
+</html>

@@ -1,7 +1,7 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Critical Path: Measure Async</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <!--首屏资源内嵌-->
+    <!--资源内嵌-->
     <style>
         .base{}
     </style>
@@ -12,7 +12,6 @@
 
     <!--按需后续加载-->
     <script>
-    setTimeout(function (argument) {
     	var $link = document.createElement('link'),
             $script = document.createElement('script'),
             $head = document.getElementsByTagName('head')[0];
@@ -27,8 +26,7 @@
 
     	$head.appendChild($link);
         $head.appendChild($script);
-    }, 0);
     </script>
 
-	</body>
+   </body>
 </html>

@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-04T16:18:10.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="ocHDVOD3VyZN8C_djAN3" version="12.3.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-04T16:19:17.276Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="sOoSgXgXoszwxPR8ZDq7" version="12.3.6" type="github" pages="1">
   <diagram id="mC2z6ZHij45KzqhMj24y" name="Page-1">
     <mxGraphModel dx="786" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="6pe8D8bSwLI52zhU29Og-40" value="规范约束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="677" y="70" width="83" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="6pe8D8bSwLI52zhU29Og-52" value="Scene&lt;br&gt;(交互组件)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="6pe8D8bSwLI52zhU29Og-52" value="Scenes&lt;br&gt;(交互组件)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="150" y="730" width="170" height="190" as="geometry"/>
         </mxCell>
         <mxCell id="6pe8D8bSwLI52zhU29Og-54" value="page" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
@@ -152,9 +152,6 @@
         </mxCell>
         <mxCell id="fKgnZvQEvgCLy6BaPN-c-1" value="容错容灾" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="410" width="80" height="45" as="geometry"/>
-        </mxCell>
-        <mxCell id="fKgnZvQEvgCLy6BaPN-c-5" value="交互组件 + 服务组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="730" width="70" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="fKgnZvQEvgCLy6BaPN-c-7" value="路由管理" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="1010" width="55" height="60" as="geometry"/>
